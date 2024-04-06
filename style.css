@@ -1,8 +1,6 @@
 
-/*-----------------------------------*\
-  #start
-\*-----------------------------------*/
-
+/*------------#start---------------------*/
+  
 *,
 *::before,
 *::after {
@@ -58,13 +56,8 @@ body {
 :focus-visible { outline-offset: 4px; }
 
 
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
-
+/*------------ #REUSED STYLE-----------------------*/
+  
 .container { padding-inline: 15px; }
 
 .section { padding-block: var(--section-padding); }
@@ -213,12 +206,7 @@ body {
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+/*------------- #HEADER----------------------*/
 
 .header-top,
 .cart-btn,
@@ -321,14 +309,7 @@ body {
 
 .navbar-link:is(:hover, :focus) { background-color: var(--white_10); }
 
-
-
-
-
-/*-----------------------------------*\
-  #SEARCH BOX
-\*-----------------------------------*/
-
+/*-------------#SEARCH BOX----------------------*/
 .search-container {
   background-color: var(--rich-black-fogra-29_95);
   position: fixed;
@@ -387,13 +368,8 @@ body {
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
-
+/*------------- #HERO----------------------*/
+ 
 .hero-banner { display: none; }
 
 .hero {
@@ -422,14 +398,7 @@ body {
   margin-block-end: 45px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #BRAND
-\*-----------------------------------*/
-
+/*------------- #BRAND----------------------*/
 .brand {
   --section-padding: 60px;
   background-image: var(--gradient);
@@ -447,13 +416,7 @@ body {
 .brand-item > img { margin-inline: auto; }
 
 
-
-
-
-/*-----------------------------------*\
-  #LATEST GAME
-\*-----------------------------------*/
-
+/*----------------#LATEST GAME-------------------*/
 .section-wrapper {
   position: relative;
   background-color: var(--white);
@@ -518,13 +481,7 @@ body {
 .latest-game-card .card-price .span { margin-inline-start: 5px; }
 
 
-
-
-
-/*-----------------------------------*\
-  #LIVE MATCH
-\*-----------------------------------*/
-
+/*-------------- #LIVE MATCH---------------------*/
 .live-match {
   padding-block-start: 0;
   overflow-x: hidden;
@@ -594,14 +551,7 @@ body {
   line-height: 1;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #FEATURED GAME
-\*-----------------------------------*/
-
+/*-------------- #FEATURED GAME---------------------*/
 .featured-game { background-color: var(--cultured-2); }
 
 .featured-game .section-title {
@@ -663,14 +613,7 @@ body {
 
 .featured-game-card:is(:hover, :focus-within) .card-content-overlay { opacity: 1; }
 
-
-
-
-
-/*-----------------------------------*\
-  #SHOP
-\*-----------------------------------*/
-
+/*--------------- #SHOP--------------------*/
 .shop {
   background-repeat: no-repeat;
   background-position: center;
@@ -739,13 +682,7 @@ body {
   border-color: var(--marigold);
 }
 
-
-
-
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
+/*--------------#BLOG---------------------*/
 .blog { background-color: var(--white); }
 
 .blog .section-title { color: var(--xiketic); }
@@ -823,14 +760,7 @@ body {
 .blog-card .card-link ion-icon,
 .blog-card .card-link:is(:hover, :focus) { color: var(--marigold); }
 
-
-
-
-
-/*-----------------------------------*\
-  #NEWSLETTER
-\*-----------------------------------*/
-
+/*-------------#NEWSLETTER----------------------*/
 .newsletter { margin-block-end: 80px; }
 
 .newsletter-card {
@@ -896,14 +826,7 @@ body {
 
 .newsletter-btn:is(:hover, :focus)::before { background-color: var(--white); }
 
-
-
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
+/*--------------#FOOTER---------------------*/
 .footer { color: var(--roman-silver); }
 
 .footer-top { padding-block-end: var(--section-padding); }
@@ -1024,14 +947,7 @@ body {
   color: var(--marigold);
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #BACK TO TOP
-\*-----------------------------------*/
-
+/*-------------#BACK TO TOP----------------------*/
 .back-top-btn {
   position: fixed;
   bottom: 10px;
@@ -1050,13 +966,7 @@ body {
   transform: translateY(-10px);
 }
 
-
-
-
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
-
+/*--------------- #MEDIA QUERIES--------------------*/
 /**
  * responsive for larger than 576px screen
  */
@@ -1259,12 +1169,7 @@ body {
     bottom: 50px;
     right: 45px;
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
@@ -1591,29 +1496,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-------------#COLOUR VER----------------------*/
 
 
 
